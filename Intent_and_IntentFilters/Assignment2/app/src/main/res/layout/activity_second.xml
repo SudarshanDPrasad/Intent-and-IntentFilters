@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/android"
+
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tvwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to sign up deatils ! "
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_carbon_user_filled"
+        android:hint="Enter Email id "
+        android:drawablePadding="20dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:padding="10dp"/>
+
+
+    <EditText
+        android:id="@+id/etphonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:drawablePadding="20dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter age"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/ic_carbon_user_filled"
+        android:drawablePadding="10dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter gender"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/ic_carbon_user_filled"
+        android:drawablePadding="10dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/bnconform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="confirm"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rectangle"/>
+
+</LinearLayout>

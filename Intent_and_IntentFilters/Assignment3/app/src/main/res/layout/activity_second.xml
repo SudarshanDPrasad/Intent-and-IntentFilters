@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tvaddbuyer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#0000ff"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:text="Add Details by Of a buyer"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/tvorganastioname"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/tvaddbuyer"
+        android:padding="30dp"
+        android:hint=" Enter Organistation Name "
+        android:drawableBottom="@drawable/ic_line_1__1_"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="#4169E1"/>
+
+    <TextView
+        android:id="@+id/tvDeatils"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the below Details  "
+        android:layout_below="@id/tvorganastioname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Name "
+        android:layout_below="@+id/tvorganastioname"
+        android:layout_marginLeft="20dp"
+        android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+        android:textSize="15dp"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the customer name "
+        android:drawableBottom="@drawable/ic_line_1__1_"
+        android:layout_below="@+id/tvName"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tvMobileNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number "
+        android:layout_below="@+id/etName"
+        android:layout_marginLeft="20dp"
+        android:drawableStart="@drawable/ic_baseline_local_phone_24"
+        android:textSize="15dp"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etMobileNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Mobile Number "
+        android:drawableBottom="@drawable/ic_line_1__1_"
+        android:layout_below="@+id/tvMobileNo"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email id "
+        android:layout_below="@+id/etMobileNo"
+        android:layout_marginLeft="20dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:textSize="15dp"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Emailid "
+        android:drawableBottom="@drawable/ic_line_1__1_"
+        android:layout_below="@+id/tvemail"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tvaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_below="@+id/etemail"
+        android:layout_marginLeft="20dp"
+        android:drawableStart="@drawable/ic_baseline_location_on_24"
+        android:textSize="15dp"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Address "
+        android:drawableBottom="@drawable/ic_line_1__1_"
+        android:layout_below="@+id/tvaddress"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tvManfactuer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manfucater"
+        android:layout_below="@+id/etaddress"
+        android:layout_marginLeft="20dp"
+        android:drawableStart="@drawable/ic_baseline_corporate_fare_24"
+        android:textSize="15dp"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etmanfactuare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Manfucater Name "
+        android:drawableBottom="@drawable/ic_line_1__1_"
+        android:layout_below="@+id/tvManfactuer"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the id "
+        android:layout_below="@+id/etmanfactuare"
+        android:layout_marginLeft="20dp"
+        android:drawableStart="@drawable/ic_baseline_corporate_fare_24"
+        android:textSize="15dp"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the id "
+        android:drawableBottom="@drawable/ic_line_1__1_"
+        android:layout_below="@+id/tvid"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tvthank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You for the Details "
+        android:layout_below="@id/etid"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
